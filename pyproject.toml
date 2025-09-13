@@ -1,0 +1,11 @@
+[project] # PEP 621 metadata
+name = "src"
+version = "0.0.1"
+description = "An MLOps project for productionizing models"
+authors = [{name = "Akshay Sharma", email = "officialakshay1896@gmail.com"}]
+
+[tool.setuptools] # setuptools-specific metadata
+packages = {find = {}}
+
+[tool.setuptools.dynamic] # dynamically set fields
+dependencies = {file = "requirements.txt"}
