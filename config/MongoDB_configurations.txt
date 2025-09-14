@@ -2,3 +2,7 @@ username - officialakshay1896_db_user
 password - dhnEAqlWyDVsWxbg
 
 connection string - mongodb+srv://officialakshay1896_db_user:dhnEAqlWyDVsWxbg@cluster0.2rmyvcw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+
+*** For Powershell ***
+    set: $env:MONGODB_URL = "mongodb+srv://officialakshay1896_db_user:dhnEAqlWyDVsWxbg@cluster0.2rmyvcw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+    check: echo $env:MONGODB_URL
