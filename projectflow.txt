@@ -24,6 +24,14 @@
 12. Push your data to mongoDB database from your python notebook.
 13. Go to mongoDB Atlas >> Database >> browse collection >> see your data in key value format
 
+WORKFLOW:
+- constant
+- config_entity
+- artifact_entity
+- component
+- pipeline
+- app.py/ demo.py
+
 -------------------------------------- logging, exception and notebooks --------------------------------------
 14. Write the logger file and test it on demo.py
 15. Write the exception file and test it on demo.py

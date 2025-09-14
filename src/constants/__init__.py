@@ -25,32 +25,32 @@ AWS_ACCESS_KEY_ID_ENV_KEY = "AWS_ACCESS_KEY_ID"
 AWS_SECRET_ACCESS_KEY_ENV_KEY = "AWS_SECRET_ACCESS_KEY"
 REGION_NAME = "us-east-1"
 
-
-"""
-Data Ingestion related constant start with DATA_INGESTION VAR NAME
-"""
+# Data Ingestion related constants
 DATA_INGESTION_COLLECTION_NAME: str = "Proj1-Data"
 DATA_INGESTION_DIR_NAME: str = "data_ingestion"
 DATA_INGESTION_FEATURE_STORE_DIR: str = "feature_store"
 DATA_INGESTION_INGESTED_DIR: str = "ingested"
 DATA_INGESTION_TRAIN_TEST_SPLIT_RATIO: float = 0.25
+"""
+Data Ingestion related constant start with DATA_INGESTION VAR NAME
+"""
 
-"""
-Data Validation realted contant start with DATA_VALIDATION VAR NAME
-"""
+# Data Validation related constants
 DATA_VALIDATION_DIR_NAME: str = "data_validation"
 DATA_VALIDATION_REPORT_FILE_NAME: str = "report.yaml"
+"""
+Data Validation related contant start with DATA_VALIDATION VAR NAME
+"""
 
-"""
-Data Transformation ralated constant start with DATA_TRANSFORMATION VAR NAME
-"""
+# Data Transformation related constants
 DATA_TRANSFORMATION_DIR_NAME: str = "data_transformation"
 DATA_TRANSFORMATION_TRANSFORMED_DATA_DIR: str = "transformed"
 DATA_TRANSFORMATION_TRANSFORMED_OBJECT_DIR: str = "transformed_object"
+"""
+Data Transformation ralated constant start with DATA_TRANSFORMATION VAR NAME
+"""
 
-"""
-MODEL TRAINER related constant start with MODEL_TRAINER var name
-"""
+# Model Trainer related constants
 MODEL_TRAINER_DIR_NAME: str = "model_trainer"
 MODEL_TRAINER_TRAINED_MODEL_DIR: str = "trained_model"
 MODEL_TRAINER_TRAINED_MODEL_NAME: str = "model.pkl"
@@ -62,13 +62,17 @@ MODEL_TRAINER_MIN_SAMPLES_LEAF: int = 6
 MIN_SAMPLES_SPLIT_MAX_DEPTH: int = 10
 MIN_SAMPLES_SPLIT_CRITERION: str = 'entropy'
 MIN_SAMPLES_SPLIT_RANDOM_STATE: int = 101
+"""
+MODEL_TRAINER related constant start with MODEL_TRAINER var name
+"""
 
-"""
-MODEL Evaluation related constants
-"""
+# Model Evaluation related constants
 MODEL_EVALUATION_CHANGED_THRESHOLD_SCORE: float = 0.02
 MODEL_BUCKET_NAME = "my-model-mlopsproj"
 MODEL_PUSHER_S3_KEY = "model-registry"
+"""
+MODEL Evaluation related constants
+"""
 
 
 APP_HOST = "0.0.0.0"
