@@ -68,7 +68,7 @@ MODEL_TRAINER related constant start with MODEL_TRAINER var name
 
 # Model Evaluation related constants
 MODEL_EVALUATION_CHANGED_THRESHOLD_SCORE: float = 0.02
-MODEL_BUCKET_NAME = "my-model-mlopsproj"
+MODEL_BUCKET_NAME = "vehicle-insurance-mlopsproj01"
 MODEL_PUSHER_S3_KEY = "model-registry"
 """
 MODEL Evaluation related constants
