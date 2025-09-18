@@ -29,7 +29,7 @@ class ModelPusher:
         Output      :   Returns model evaluation artifact
         On Failure  :   Write an exception log and then raise an exception
         """
-        logging.info("Entered initiate_model_pusher method of ModelTrainer class")
+        logging.info("Entered initiate_model_pusher method of ModelPusher class")
 
         try:
             print("------------------------------------------------------------------------------------------------")
