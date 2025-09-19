@@ -43,7 +43,7 @@ Cross-Origin Resource Sharing (CORS)
 Original: Allow all origins for Cross-Origin Resource Sharing (CORS) Configure middleware to handle CORS, allowing requests 
 from any origin.
 
-Simplified: When you load a web app (e.g., from http://localhost:3000) and it tries to access a server (e.g., http://localhost:8000), 
+Simplified: When you load a web app (e.g., from http://localhost:3000) and it tries to access a server at different port (e.g., http://localhost:8000), 
 CORS controls whether the browser allows this connection. By default, browsers block requests from one 
 "origin" (like a domain or port) to another for security reasons.
 
@@ -57,8 +57,7 @@ such as different frontend apps.
 
 Simplified: `async` (short for *asynchronous*) allows your code to run tasks without waiting for each to finish one by one. 
 
-For example, imagine you request some data from a user form on a website. While waiting for the data to be sent back, instead 
-of sitting idle, the app can do other tasks (like handling another user's request) in the meantime.
+For example, imagine you request some data from a user form on a website. While waiting for the data to be sent back, instead of sitting idle, the app can do other tasks (like handling another user's request) in the meantime.
 
 Using `async` helps the app handle multiple requests faster and more efficiently, especially for tasks like reading form data, 
 accessing databases, or making network requests. 
