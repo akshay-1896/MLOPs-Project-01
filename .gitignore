@@ -212,4 +212,5 @@ config/AWS_configurations.txt
 firstproj_accessKeys.csv
 crashcourse.txt
 config/proj1key.pem
+
 notebook/mongoDB_demo.ipynb
